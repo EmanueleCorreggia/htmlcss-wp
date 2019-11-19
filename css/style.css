@@ -5,7 +5,7 @@
 }
 body {
   height: 100%;
-  background-image: url(http://www.4usky.com/data/out/103/164935340-wood-floor-wallpapers.jpg);
+  background-image: url(../img/natural-pattern.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -16,14 +16,28 @@ body {
   margin: 20px auto;
 }
 header {
-  height: 500px;
-  background-image: url(http://www.casentino.it/images/foresta-firenze.jpg);
+  height: 400px;
+  background-image: url(../img/natural-header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin-bottom: 24px;
   border: 10px solid white;
 }
+.title {
+  text-align: center;
+}
+img {
+  height: 250px;
+  margin-top: 50px;
+}
+.subtitle {
+  text-align: center;
+  font-size: 30px;
+  color: white;
+  text-transform: uppercase;
+}
+
 main {
   background-color: transparent;
   margin-bottom: 24px;
@@ -40,6 +54,7 @@ footer {
 .col {
   float: left;
   padding: 10px;
+  border-radius: 5px;
 }
 .col-left {
   width: 20%;
@@ -61,7 +76,9 @@ footer {
   background-color: white;
   margin-bottom: 24px;
   padding: 10px;
-  border: 1px solid black
+  border: 1px solid black;
+  border-radius: 5px;
+
 }
 h1 {
   text-align: center;
