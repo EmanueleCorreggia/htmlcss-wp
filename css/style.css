@@ -59,7 +59,8 @@ footer {
 .col-left {
   width: 20%;
   background-color: white;
-  border: 1px solid black
+  border: 1px solid black;
+  padding: 5px;
   }
 .col-right {
   width: 20%;
@@ -78,7 +79,6 @@ footer {
   padding: 10px;
   border: 1px solid black;
   border-radius: 5px;
-
 }
 h1 {
   text-align: center;
@@ -110,4 +110,31 @@ h1 {
 }
 .navbar nav ul li a:hover {
   background-color: #302B27;
+}
+.menu {
+  list-style: none;
+}
+.menu li {
+  margin-bottom: 8px;
+  font-size: 16px;
+}
+.menu li a {
+  text-decoration: none;
+  color: green;
+}
+.col-left-header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+.col-left-header i,
+.col-left-header h2 {
+  float: left;
+}
+.col-left-header h2 {
+  height: 70%;
+}
+.col-left-header i {
+  color: orange;
+  margin: 5px;
 }
