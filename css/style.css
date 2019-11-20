@@ -121,12 +121,11 @@ h1 {
   display: table;
   clear: both;
 }
-.col-left-header i,
-.col-left-header h2 {
+.col-left-header i,.col-left-header h2{
   float: left;
 }
 .col-left-header h2 {
-  height: 70%;
+  width: 50%;
 }
 .col-left-header i {
   color: orange;
